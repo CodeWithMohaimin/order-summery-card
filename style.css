@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  font-family: Arial, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/pattern-background-desktop.svg);
+  min-height: 100vh;
+  background-position: start;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: contain;
+  padding: 0 0.8rem;
+}
+.card_container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 345px;
+  border-radius: 15px;
+}
+.card_image img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.card_text {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0 0 15px 15px;
+}
+.card_text h1 {
+  font-size: 1.5rem;
+}
+.card_text p {
+  margin: 1.5rem 0;
+  color: #999;
+  font-size: 0.9rem;
+}
+.plan {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.plan_inner img {
+  width: 37px;
+}
+.rate {
+  text-align: left;
+  padding-left: rem;
+}
+.rate h2 {
+  font-size: 1rem;
+  padding-bottom: 0.3rem;
+}
+.rate article {
+  color: #999;
+  font-size: 0.8rem;
+}
+.change a {
+  font-size: 0.8rem;
+  border-bottom: 2px solid blue;
+  text-decoration: none;
+  padding-bottom: 0.1rem;
+  font-weight: 700;
+}
+.inner_section {
+  display: flex;
+  gap: 1rem;
+  padding: 0 0.5rem;
+}
+button {
+  width: 100%;
+  margin-top: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem;
+  background-color: rgb(69, 69, 208);
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.cancle_btn {
+  color: rgb(66, 66, 138);
+  margin-top: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
