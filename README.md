@@ -1,7 +1,7 @@
 # Frontend Mentor - Order summary card
 ## [Live Link](https://codewithmohaimin.github.io/order-summery-card/)
 
-# This Project is basically for Frontend Mentor challenge project. Where I create Order summary card project for Frontend mentor.io with Html, CSS and Javascript Dom manipulation. It's great project for learning CSS Flex box CSS responsive design patterns and CSS media query and JavaScript Dom manipulations
+### This Project is basically for Frontend Mentor challenge project. Where I create Order summary card project for Frontend mentor.io with Html, CSS and Javascript Dom manipulation. It's great project for learning CSS Flex box CSS responsive design patterns and CSS media query and JavaScript Dom manipulations
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
